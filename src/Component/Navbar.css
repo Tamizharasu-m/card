@@ -1,0 +1,26 @@
+.navbar {
+    width: 20%;
+    height: 100vh;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 80px;
+    z-index: 1;
+    background-color: #eee;
+}
+
+.navbar-in {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navbar-in li {
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 40px;
+    color: #2c2c54;
+    cursor: pointer;
+}

@@ -1,0 +1,97 @@
+body {
+    background: #aaaaaa;
+    font-family: var(--font-style);
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    box-shadow: 0 15px 25px #27ae60;
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #2c2c54;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.login-box .user-box input {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #2c2c54;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#register {
+    font-size: 14px;
+    text-decoration: none;
+    color: #2c2c54;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#register a {
+    margin: auto;
+    color: #27ae60;
+    text-decoration: none;
+}
+
+.login-box .user-box label {
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #2c2c54;
+    pointer-events: none;
+    transition: 02s;
+}
+
+#sumbit {
+    padding: 18px 28px;
+    color: #fffefe;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 4px;
+    border: 1px solid #27ae60;
+    margin: auto;
+    border-radius: 12px;
+    background: #27ae60;
+
+}
+
+#sumbit:hover {
+    background: #2c2c54;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -85px;
+
+    color: #2c2c54;
+    font-size: 16px;
+}

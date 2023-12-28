@@ -1,0 +1,7 @@
+.df-space {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 300px;
+    max-width: 1173px;
+}
