@@ -7,7 +7,7 @@ export default function Header(props) {
     <div className='bg'>
       <div className='df header-space'>
         <div className=' header-img'>
-          <img src='../Images/web-logo-2.png' />
+          <img src='./Images/web-logo-2.png' />
         </div>
         <div className=''>
           <ul className='df links'>

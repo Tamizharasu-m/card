@@ -6,7 +6,7 @@ export default function Footer() {
     <div className='align-center'>
       <div className='df jcse'>
         <div>
-            <img className='footer-img' src='../Images/web-logo-2.png'/>
+            <img className='footer-img' src='./Images/web-logo-2.png'/>
         </div>
         <div className='footer-align'>
             <h3>Our Location</h3>
