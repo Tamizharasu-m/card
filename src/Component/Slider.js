@@ -14,7 +14,7 @@ export default function Slider() {
   return (
     <div className='align-center'>
       <SimpleImageSlider
-        width={1000}
+        width={1134}
         height={400}
         images={images}
         showBullets={true}
